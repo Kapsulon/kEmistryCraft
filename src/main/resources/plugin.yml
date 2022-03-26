@@ -1,0 +1,15 @@
+name: KEmistryCraft
+version: '${project.version}'
+main: fr.kapsulon.kemistrycraft.KEmistryCraft
+api-version: 1.18
+authors: [ Kapsulon ]
+description: Kapsulon's implementation of chemistry and physics in minecraft
+commands:
+  givekemistelement:
+    usage: /givekemistelement <player> <item>
+    permission: kemistrycraft.give
+    description: give an element to given player
+  giveallkemistelements:
+    usage: /giveallkemistelements <player>
+    permission: kemistrycraft.giveall
+    description: give all elements to given player
